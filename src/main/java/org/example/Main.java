@@ -1,7 +1,10 @@
 package org.example;
 
+import org.example.a.BeeApp;
+import org.example.b.HairSalonApp;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new HairSalonApp(2);
     }
 }
